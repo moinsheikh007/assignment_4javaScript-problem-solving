@@ -68,5 +68,68 @@ console.log(result); */
 
 
 
+/* const obj = {
+    street: '10',
+    house: '15A',
+    society: 'Earth Perfect'
+}
+
+function findAddress (object) {
+   for (const keys in object) {
+    const values = object[keys]
+    // console.log(values)
+    // return values;
+}
+}
+
+const result = findAddress(obj);
+// console.log(result) */
 
 
+
+
+
+
+
+/* const numbers = [1, 2, 5];
+
+function canPay (numbers, totalDue) {
+    let total = 0;
+    for (let i=0; i<numbers.length; i++){
+        const number = numbers[i];
+        total = total + number;
+    }
+    if (total >= totalDue) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
+const result = canPay(numbers, 10);
+console.log(result); */
+
+
+
+
+
+const data = {
+    name: 'akkas',
+    age: 21,
+    address: 'GP'
+}
+
+
+function getAddress (data) {
+    const values = Object.values(data);
+    let totalvalue = []
+    for(let i=0; i<values.length; i++) {
+        const singleValue = values[i];
+        totalvalue.push(singleValue)
+    }
+    return totalvalue;
+}
+
+const result = getAddress(data);
+console.log(result)
